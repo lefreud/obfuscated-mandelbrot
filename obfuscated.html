@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <title>Obfuscated Mandelbrot</title>
+  <link rel="stylesheet" href="atom-one-dark-reasonable.css">
+  <link rel="stylesheet" href="obfuscated.css">
+</head>
+
+<body>
+  <div class='container hljs'>
+    <!-- Code from: https://preshing.com/20110926/high-resolution-mandelbrot-in-obfuscated-python/ -->
+    <pre><code class="python">
+_                                      =   (
+                                        <span class="hljs-number">255</span>,
+                                      <span class="hljs-keyword">lambda</span>
+                               V       ,B,c
+                             :c   <span class="hljs-keyword">and</span> Y(V*V+B,B,  c
+                               <span class="hljs-number">-1</span>)<span class="hljs-keyword">if</span>(abs(V)&lt;<span class="hljs-number">6</span>)<span class="hljs-keyword">else</span>
+               (              <span class="hljs-number">2</span>+c<span class="hljs-number">-4</span>*abs(V)**<span class="hljs-number">-0.4</span>)/i
+                 )  ;v,      x=<span class="hljs-number">1500</span>,<span class="hljs-number">1000</span>;C=range(v*x
+                  );<span class="hljs-keyword">import</span>  struct;P=struct.pack;M,\
+            j  =<span class="hljs-string">'&lt;QIIHHHH'</span>,open(<span class="hljs-string">'M.bmp'</span>,<span class="hljs-string">'wb'</span>).write
+<span class="hljs-keyword">for</span> X <span class="hljs-keyword">in</span> j(<span class="hljs-string">'BM'</span>+P(M,v*x*<span class="hljs-number">3</span>+<span class="hljs-number">26</span>,<span class="hljs-number">26</span>,<span class="hljs-number">12</span>,v,x,<span class="hljs-number">1</span>,<span class="hljs-number">24</span>))<span class="hljs-keyword">or</span> C:
+            i  ,Y=_;j(P(<span class="hljs-string">'BBB'</span>,*(<span class="hljs-keyword">lambda</span> T:(T*<span class="hljs-number">80</span>+T**<span class="hljs-number">9</span>
+                  *i<span class="hljs-number">-950</span>*T  **<span class="hljs-number">99</span>,T*<span class="hljs-number">70</span><span class="hljs-number">-880</span>*T**<span class="hljs-number">18</span>+<span class="hljs-number">701</span>*
+                 T  **<span class="hljs-number">9</span>     ,T*i**(<span class="hljs-number">1</span>-T**<span class="hljs-number">45</span>*<span class="hljs-number">2</span>)))(sum(
+               [              Y(<span class="hljs-number">0</span>,(A%<span class="hljs-number">3</span>/<span class="hljs-number">3.</span>+X%v+(X/v+
+                               A/<span class="hljs-number">3</span>/<span class="hljs-number">3.</span>-x/<span class="hljs-number">2</span>)/<span class="hljs-number">1j</span>)*<span class="hljs-number">2.5</span>
+                             /x   <span class="hljs-number">-2.7</span>,i)**<span class="hljs-number">2</span> <span class="hljs-keyword">for</span>  \
+                               A       <span class="hljs-keyword">in</span> C
+                                      [:<span class="hljs-number">9</span>]])
+                                        /<span class="hljs-number">9</span>)
+                                       )   )
+    </code></pre>
+  </div>
+</body>
+
+</html>
