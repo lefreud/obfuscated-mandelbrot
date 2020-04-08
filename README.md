@@ -2,6 +2,8 @@
 
 A chrome extension that overrides the new tab's default page for a cool, ascii art, mandelbrot generation code written in Python.
 
+Download link : [Chrome Web Store](https://chrome.google.com/webstore/detail/beedflkopeekgecaakbcdopincihjgla)
+
 ![Screenshot](images/screenshot.jpg)
 
 This chrome extension wasn't created by me, but by an anonymous contributor passionate about maths.
