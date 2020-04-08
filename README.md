@@ -1,4 +1,4 @@
-#Obfuscated Mandelbrot
+# Obfuscated Mandelbrot
 
 A chrome extension that overrides the new tab's default page for a cool, ascii art, mandelbrot generation code written in Python.
 
